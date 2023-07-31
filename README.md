@@ -14,19 +14,9 @@ The Pi streams the output of the camera module over the web via Flask. Devices c
 ```
 ## Configuring Face Detection Camera Stream
 
-This repo provides other(real world) use cases such as a face detection based on the [Haarcascade Model](https://github.com/opencv/opencv/tree/master/data/haarcascades). This works integrates with the Pi Stream and the ability to interact with the Door Lock / Unlock Mechanism.
 
-/face-detection-example - Move/Replace the following files to the parent directory
-main.py
-camera.py
-haarcascade_frontalface_alt2.xml
 
-Note: Change the xml models to suit your needs e.g. [haarcascade_fullbody.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_fullbody.xml)
 
-## Screenshots
-| ![Setup](readme/pi-door-bell-setup.jpg) | ![Live Pi Camera Stream](readme/pi-stream-face-detection.jpg) |![Door Lock](readme/pi-doorlock-motor.jpg)
-|---|---|---|
-| Pi Setup | Pi - Live Stream | Door Lock System
 
 ## Preconditions
 
